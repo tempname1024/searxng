@@ -237,14 +237,14 @@ outgoing:
 # Comment or un-comment plugin to activate / deactivate by default.
 #   https://docs.searxng.org/admin/settings/settings_plugins.html
 #
-# enabled_plugins:
-#   # these plugins are enabled if nothing is configured ..
-#   - 'Basic Calculator'
-#   - 'Hash plugin'
-#   - 'Self Information'
-#   - 'Tracker URL remover'
-#   - 'Unit converter plugin'
-#   - 'Ahmia blacklist'  # activation depends on outgoing.using_tor_proxy
+enabled_plugins:
+  # these plugins are enabled if nothing is configured ..
+  - 'Basic Calculator'
+  - 'Hash plugin'
+  - 'Self Information'
+  - 'Tracker URL remover'
+  - 'Unit converter plugin'
+  - 'Ahmia blacklist'  # activation depends on outgoing.using_tor_proxy
 #   # these plugins are disabled if nothing is configured ..
 #   - 'Hostnames plugin'  # see 'hostnames' configuration below
 #   - 'Open Access DOI rewrite'
